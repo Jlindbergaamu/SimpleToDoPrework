@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         btnAdd = findViewById(R.id.btnAdd);
         etItem = findViewById(R.id.etItem);
         rvItems = findViewById(R.id.rvItems);
-        etItem.setText("I'm doing this from Java!");
+        etItem.setText("Add Item");
 
         loadItems();
 
